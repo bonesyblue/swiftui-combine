@@ -13,13 +13,19 @@ struct SignUpForm: View {
     
     var body: some View {
         Form {
-            Section {
+            Section(footer: Text(
+                    viewModel.usernameMessage
+                ).foregroundColor(.red)
+            ) {
                 TextField(
                     "Username",
                     text: $viewModel.username
                 ).autocapitalization(.none)
             }
-            Section {
+            Section(footer: Text(
+                    viewModel.passwordMessage
+            ).foregroundColor(.red)
+            ) {
                 SecureField(
                     "Password",
                     text: $viewModel.password
@@ -31,7 +37,7 @@ struct SignUpForm: View {
             }
             Section {
                 Button(action: {
-                    print("Pressed")
+                    print("Register user \(self.viewModel.username)")
                 }){
                    Text("Sign up")
                 }.disabled(!viewModel.isValid)
