@@ -13,6 +13,8 @@
 		7C94741A24B75781009FA158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C94741924B75781009FA158 /* Assets.xcassets */; };
 		7C94741D24B75781009FA158 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C94741C24B75781009FA158 /* Preview Assets.xcassets */; };
 		7C94742024B75781009FA158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C94741E24B75781009FA158 /* LaunchScreen.storyboard */; };
+		7C94742A24B78D89009FA158 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94742924B78D89009FA158 /* UserViewModel.swift */; };
+		7C94742C24B78F01009FA158 /* SignUpForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C94742B24B78F01009FA158 /* SignUpForm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		7C94741C24B75781009FA158 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7C94741F24B75781009FA158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C94742124B75781009FA158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C94742924B78D89009FA158 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
+		7C94742B24B78F01009FA158 /* SignUpForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpForm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				7C94741E24B75781009FA158 /* LaunchScreen.storyboard */,
 				7C94742124B75781009FA158 /* Info.plist */,
 				7C94741B24B75781009FA158 /* Preview Content */,
+				7C94742924B78D89009FA158 /* UserViewModel.swift */,
+				7C94742B24B78F01009FA158 /* SignUpForm.swift */,
 			);
 			path = FirebaseSwfitUI;
 			sourceTree = "<group>";
@@ -146,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C94742C24B78F01009FA158 /* SignUpForm.swift in Sources */,
 				7C94741424B7577D009FA158 /* AppDelegate.swift in Sources */,
+				7C94742A24B78D89009FA158 /* UserViewModel.swift in Sources */,
 				7C94741624B7577D009FA158 /* SceneDelegate.swift in Sources */,
 				7C94741824B7577D009FA158 /* ContentView.swift in Sources */,
 			);
